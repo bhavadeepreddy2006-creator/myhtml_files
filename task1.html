@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <style>
+        container{
+            background-color:white ;
+            justify-content: center;
+        }
+        .bd{
+            /* display: flex; */
+            justify-content: center;
+            padding-top: 5%;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(9deg,#e2e2e2,#c9d6ff);
+            font-family: sans-serif;
+        }
+        .input-box input::placeholder{
+            color: #161111;
+            font-weight: 400;
+            padding: auto;
+        }
+        .f{
+            color: black;
+        }
+        .but{
+            width: 180px;
+            height: 35px;
+            border-radius: 20px;
+            background-color: rgb(6, 6, 143);
+            color: aliceblue;
+            padding: auto;
+        }
+        .but:hover{
+            width: 180px;
+            height: 35px;
+            border-radius: 20px;
+            background-color:aliceblue;
+            color:  rgb(6, 6, 143);
+            padding: auto;
+            transition: 1s;
+        }
+        .but1{
+            width: 180px;
+            height: 35px;
+            border-radius: 20px;
+            background-color:aliceblue;
+            color:  rgb(6, 6, 143);
+            padding: auto;
+        }
+        .but1:hover{
+            width: 180px;
+            height: 35px;
+            border-radius: 20px;
+            background-color:rgb(6, 6, 143);
+            color:aliceblue;
+            transition: 1s;
+            padding: auto;
+        }
+        input{
+            width: 250px;
+            height: 35px;
+            border-radius: 8px;
+            padding: auto;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <container>
+            <div class="bd">
+            <img src="face.jpeg"
+            height="50"
+            width="50">
+            <h4>Login to facebook</h4>
+            <div class="input-box">
+                <input type="text"  placeholder="Username or Email"required><br><br>
+                <input type="password"  placeholder="password"required><br><br>
+            </div>
+            <button class="but">Log in</button><br><br>
+            <a href="/forget.html" class="f"> Forget password </a><br><br>
+            <button class="but1">create new acount</button>
+            </div>
+        </container>
+    </center>
+</body>
+</html>
