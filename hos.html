@@ -1,0 +1,213 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore World - Travel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Explore World Travel Agency</h1>
+
+    <nav>
+        <a href="#about">About Us</a> |
+        <a href="#packages">Packages</a> |
+        <a href="#booking">Booking</a> |
+        <a href="#rules">Travel Rules</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<hr>
+
+<main>
+
+<section id="about">
+    <h2>About Us</h2>
+
+    <p>
+        Explore World is a trusted travel agency providing affordable domestic
+        and international tour packages. We help travelers enjoy memorable
+        journeys with excellent customer support.
+    </p>
+
+    <h3>Services Offered</h3>
+
+    <ul>
+        <li>Holiday Packages</li>
+        <li>Hotel Reservations</li>
+        <li>Flight Bookings</li>
+        <li>Visa Assistance</li>
+        <li>Travel Insurance</li>
+    </ul>
+</section>
+
+<hr>
+
+<section id="packages">
+    <h2>Travel Packages</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Destination</th>
+            <th>Duration</th>
+            <th>Cost</th>
+            <th>Available Seats</th>
+        </tr>
+
+        <tr>
+            <td>Goa</td>
+            <td>4 Days</td>
+            <td>₹12,000</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <td>Manali</td>
+            <td>6 Days</td>
+            <td>₹18,000</td>
+            <td>15</td>
+        </tr>
+
+        <tr>
+            <td>Kerala</td>
+            <td>5 Days</td>
+            <td>₹16,000</td>
+            <td>18</td>
+        </tr>
+
+        <tr>
+            <td>Dubai</td>
+            <td>7 Days</td>
+            <td>₹65,000</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>Singapore</td>
+            <td>6 Days</td>
+            <td>₹75,000</td>
+            <td>12</td>
+        </tr>
+    </table>
+</section>
+
+<hr>
+
+<section id="booking">
+    <h2>Travel Booking Form</h2>
+
+    <form>
+
+        <label>Traveler Name:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" required><br><br>
+
+        <label>Mobile Number:</label><br>
+        <input type="tel"
+               pattern="[0-9]{10}"
+               required
+               placeholder="10-digit mobile number"><br><br>
+
+        <label>Select Destination:</label><br>
+        <select required>
+            <option value="">Choose Destination</option>
+            <option>Goa</option>
+            <option>Manali</option>
+            <option>Kerala</option>
+            <option>Dubai</option>
+            <option>Singapore</option>
+        </select>
+        <br><br>
+
+        <label>Travel Date:</label><br>
+        <input type="date" required><br><br>
+
+        <label>Number of Travelers:</label><br>
+        <input type="number" min="1" max="20" required><br><br>
+
+        <label>Special Requests:</label><br>
+        <textarea rows="5" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Book Now">
+    </form>
+</section>
+
+<hr>
+
+<section id="rules">
+    <h2>Travel Rules</h2>
+
+    <h3>Booking Steps</h3>
+    <ol>
+        <li>Select your destination.</li>
+        <li>Fill the booking form.</li>
+        <li>Confirm travel dates.</li>
+        <li>Complete payment.</li>
+        <li>Receive booking confirmation.</li>
+    </ol>
+
+    <h3>Travel Guidelines</h3>
+    <ul>
+        <li>Carry valid ID proof.</li>
+        <li>Arrive before departure time.</li>
+        <li>Follow local laws and regulations.</li>
+        <li>Keep emergency contacts available.</li>
+        <li>Maintain cleanliness during travel.</li>
+    </ul>
+</section>
+
+<hr>
+
+<aside>
+    <h2>Travel Guide Audio</h2>
+    <audio controls>
+        <source src="travel_guide.mp3" type="audio/mpeg">
+    </audio>
+</aside>
+
+<hr>
+
+<section>
+    <h2>Destination Video</h2>
+    <video width="500" controls>
+        <source src="destination_video.mp4" type="video/mp4">
+    </video>
+</section>
+
+<hr>
+
+<section>
+    <h2>Travel Vlog</h2>
+
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/VIDEO_ID"
+        title="Travel Vlog"
+        allowfullscreen>
+    </iframe>
+</section>
+
+</main>
+
+<hr>
+
+<footer id="contact">
+    <h2>Contact Information</h2>
+
+    <p><strong>Address:</strong> MG Road, Vijayawada, Andhra Pradesh</p>
+    <p><strong>Email:</strong> info@exploreworld.com</p>
+    <p><strong>Phone:</strong> +91 9876543210</p>
+
+    <p>&copy; 2026 Explore World Travel Agency. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+```
