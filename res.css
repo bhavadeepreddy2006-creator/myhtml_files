@@ -1,0 +1,170 @@
+
+/* General Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header & Navigation */
+header{
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #f1c40f;
+}
+
+/* Section Styling */
+section{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+section h2{
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* About Me Section */
+#about p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* Education Table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td{
+    border: 1px solid #333;
+}
+
+th{
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+/* Skills Section */
+#skills ul{
+    padding-left: 30px;
+}
+
+#skills li{
+    margin-bottom: 10px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Projects Section */
+#projects article{
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#projects h3{
+    color: #2980b9;
+    margin-bottom: 8px;
+}
+
+/* Forms */
+form{
+    margin-top: 10px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    background-color: #2980b9;
+}
+
+/* Social Links */
+a{
+    color: #3498db;
+}
+
+a:hover{
+    color: #e74c3c;
+}
+
+/* Audio & Video */
+audio,
+video{
+    margin-top: 10px;
+}
+
+/* Footer */
+footer{
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
