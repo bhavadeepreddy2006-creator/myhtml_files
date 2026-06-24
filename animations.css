@@ -1,0 +1,130 @@
+.box{
+    height: 80px;
+    width: 80px;
+    background-color: skyblue;
+    position: relative;
+    animation: move  1s infinite alternate;
+    animation: bounce 3s 3;
+}
+@keyframes move{
+    from{
+        left:0
+    }
+    to{
+        left:300px
+    }
+}  
+@keyframes bounce{
+    0%{top:0;background-color:red;}
+    50%{left:200px;background-color: yellow;}
+    100%{left:0;background-color: blue;}
+}
+.box1{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position: relative;
+    animation: colorchange 3s infinite alternate;
+}
+@keyframes colorchange {
+    from{
+        background-color: yellow;
+        left:0
+    }
+    to{
+        background-color: palevioletred;
+        left: 300px;
+    }
+}
+
+ .box2 {
+            width: 50px;
+            height: 50px;
+            border: 5px solid lightgray;
+            border-top: 5px solid blue;   /* top color for spinner effect */
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}.box{
+    height: 80px;
+    width: 80px;
+    background-color: skyblue;
+    position: relative;
+    animation: move  2s infinite alternate;
+    animation: bounce 3s 3;
+}
+@keyframes move{
+    from{
+        left:0
+    }
+    to{
+        left:300px
+    }
+}  
+@keyframes bounce{
+    0%{top:0;background-color:red;}
+    50%{left:200px;background-color: yellow;}
+    100%{left:0;background-color: blue;}
+}
+.box1{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position: relative;
+    animation: colorchange 3s infinite alternate;
+}
+@keyframes colorchange {
+    from{
+        background-color: yellow;
+        left:0
+    }
+    to{
+        background-color: palevioletred;
+        left: 300px;
+    }
+}
+
+ .box2 {
+            width: 50px;
+            height: 50px;
+            border: 5px solid lightgray;
+            border-top: 5px solid blue;   /* top color for spinner effect */
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* Mobile:567px
+Tablet: 768px
+Laptop: 992px
+Desktop: 12000px
+*/
+
+img{
+    width: 500px;
+}
+/* Solution for image resolution */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* variable declaration in css */
+:root{
+    --primary-color: #2363ed;
+    --secondary-color: #06b6d4;
+
+}
