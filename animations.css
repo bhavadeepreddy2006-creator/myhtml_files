@@ -67,7 +67,7 @@
     to{
         left:300px
     }
-}  
+}
 @keyframes bounce{
     0%{top:0;background-color:red;}
     50%{left:200px;background-color: yellow;}
